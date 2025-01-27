@@ -1,2 +1,0 @@
-# web102_prework_project
-Completed web102_prework_project
