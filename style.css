@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
 
 body {
-    font-family: 'Cabin';
-    background-color: #758190;
+    font-family: 'Cabin', sans-serif;
+    background-color: #e0f7fa; /* Light teal for the ocean background */
+    color: #03396c; /* Deep sea blue for text */
 }
 
 #tentacles {
@@ -11,65 +12,134 @@ body {
 
 .header {
     display: flex;
-    background-color: lightblue;
+    background-color: #028090; /* Rich teal for the header */
+    color: #ffffff; /* White text */
     padding: 1%;
     align-items: center;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 .stats-container {
-    display: flex;
+    display: flex; /* Enables flexbox */
+    align-items: center; /* Aligns children along the cross-axis */
+    gap: 10px; /* Add spacing between stats cards */
+    margin: 20px auto; /* Center stats container with some spacing */
+}
+
+.stats-container:hover {
+    cursor: pointer; /* Changes the cursor to pointer on hover */
+    box-shadow: 0 0 30px #00a8cc; /* Bright aqua glow on hover */
 }
 
 .stats-card {
-    background-color: #a8b0bc;
-    border-radius: 7px;
+    background-color: #56cfe1; /* Soft aqua blue for stats cards */
+    border-radius: 10px;
     padding: 1%;
     margin: 1%;
     width: 100%;
     text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    color: #03396c; /* Deep blue for text contrast */
 }
 
 #num-contributions, #total-raised, #num-games {
     font-size: 50px;
+    color: #03396c; /* Deep sea blue for emphasis */
 }
 
 #games-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    gap: 20px; /* Space between game cards */
 }
 
 .game-img {
     width: 100%;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #FFFFFF;
+    border-radius: 8px; /* Softer corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for images */
 }
 
 .game-card {
-    background-color: #FFFFFF;
+    background-color: #ade8f4; /* Brighter blue for game cards */
     padding: 1%;
     margin: 1%;
     width: 300px;
     text-align: center;
-    border-radius: 7px;
+    border-radius: 10px; /* Softer corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effects */
 }
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px #00b4d8; /* Bright blue glow on hover */
+    transform: translateY(-5px); /* Subtle lift effect */
 }
 
 #button-container {
     text-align: center;
+    margin: 20px 0; /* Add spacing above and below the button area */
 }
 
 button {
-    font-family: 'Cabin';
+    font-family: 'Cabin', sans-serif;
+    background-color: #00b4d8; /* Bright blue for buttons */
+    color: #ffffff; /* White text */
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 25px; /* Rounded buttons */
     border: none;
-    padding: 1%;
-    margin: 1%;
-    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #90e0ef; /* Lighter blue on hover */
+    transform: translateY(-2px); /* Subtle lift on hover */
+}
+
+#search-bar-container {
+    display: flex;
+    justify-content: center; /* Center the search bar container */
+    align-items: center; /* Vertically align the elements */
+    margin: 20px 0; /* Add vertical spacing */
+    gap: 15px; /* Space between the input and button */
+}
+
+#search-bar {
+    width: 300px; /* Make the input field wider */
+    padding: 10px; /* Add padding inside the input field */
+    border: 2px solid #00b4d8; /* Bright blue border */
+    border-radius: 25px; /* Rounded corners */
+    font-family: 'Cabin', sans-serif; /* Consistent font */
+    font-size: 16px; /* Larger font size for readability */
+    outline: none; /* Remove default outline */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+#search-bar:focus {
+    border-color: #56cfe1; /* Aqua blue on focus */
+    box-shadow: 0 0 8px #56cfe1; /* Subtle aqua glow on focus */
+}
+
+#search-button {
+    background-color: #00b4d8; /* Bright blue background */
+    color: #ffffff; /* White text */
+    padding: 10px 20px; /* Add padding */
+    border-radius: 25px; /* Rounded corners */
+    border: none; /* Remove border */
+    font-family: 'Cabin', sans-serif; /* Consistent font */
+    font-size: 16px; /* Larger font size for readability */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+#search-button:hover {
+    background-color: #90e0ef; /* Lighter blue on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
 }
