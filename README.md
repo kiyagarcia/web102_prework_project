@@ -1,14 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-# WEB102 Prework - *Sea Monster Crowdfunding*
+# WEB102 Prework - Sea Monster Crowdfunding
 
 Submitted by: **Kiya Garcia**
 
 **Sea Monster Crowdfunding** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **20**
-
+Time spent: **20 hours**
 
 ## Required Features
 
@@ -16,12 +12,13 @@ The following **required** functionality is completed:
 
 * [x] The introduction section explains the background of the company and how many games remain unfunded.
 * [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding.
 * [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-* [x] List anything else that you can get done to improve the app functionality!
+* [x] Added a search bar to filter games by name.
+* [x] Improved the visual design with a Sea Monster theme and cohesive color scheme.
 
 ## Video Walkthrough
 
@@ -46,10 +43,9 @@ GIF created with Kap
 - Learned how to use Git commands effectively to manage code history and resolve conflicts.
 - Enhanced the project with a fun and engaging Sea Monster theme.
 
-
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2025 Kiya Garcia
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -62,11 +58,3 @@ GIF created with Kap
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
-=======
-# web102_prework_final
-Completed web102_prework
->>>>>>> 1f317cd5b577068819c119f6a1f39e28931b4d76
-=======
-# web102_prework_project
-Completed web102_prework_project
->>>>>>> 246441d26741af6e2de892002cba3ee4c6708674
