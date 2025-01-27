@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # WEB102 Prework - *Name of App Here*
 
 Submitted by: **Your Name Here**
@@ -56,3 +57,7 @@ Describe any challenges encountered while building the app.
 # web102_prework_final
 Completed web102_prework
 >>>>>>> 1f317cd5b577068819c119f6a1f39e28931b4d76
+=======
+# web102_prework_project
+Completed web102_prework_project
+>>>>>>> 246441d26741af6e2de892002cba3ee4c6708674
