@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WEB102 Prework - *Name of App Here*
 
 Submitted by: **Your Name Here**
@@ -51,3 +52,7 @@ Describe any challenges encountered while building the app.
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+=======
+# web102_prework_final
+Completed web102_prework
+>>>>>>> 1f317cd5b577068819c119f6a1f39e28931b4d76
